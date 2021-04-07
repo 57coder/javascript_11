@@ -1,6 +1,6 @@
 console.log(Number.MAX_SAFE_INTEGER);
 
-// 超过氛围的两个不同的值，却返回了true
+// 超过范围的两个不同的值，却返回了true
 console.log(9007199254740992 === 9007199254740993) // -> true
 
 // 为解决此问题，ES2020 提供一种新的数据类型：BigInt。使用 BigInt 有两种方式：
